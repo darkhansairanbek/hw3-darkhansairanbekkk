@@ -1,0 +1,23 @@
+{
+  "note": "Part C's six questions, each asked of all three systems. `reference` is what the corpus says; `relevant` lists the chunks that hold it. C-06 has no answer in the corpus on purpose: the right answer from a RAG system is that it does not know.",
+  "questions": [
+    {"id": "C-01", "question": "How much does a student in income band 2 receive, and when is it paid?",
+     "reference": "150,000 tenge for the academic year, in two equal instalments: October and February.",
+     "relevant": ["GO-04", "GO-15"]},
+    {"id": "C-02", "question": "My grant application was refused. How long do I have to appeal, and which form do I use?",
+     "reference": "14 calendar days from the date on the decision letter, using form GR-305.",
+     "relevant": ["GO-08", "GO-12", "GO-23"]},
+    {"id": "C-03", "question": "What is the minimum GPA needed to qualify for the need-based grant?",
+     "reference": "A cumulative GPA of at least 2.67 on the 4.0 scale. (The 3.0 in GO-05 is the archived 2025 rule.)",
+     "relevant": ["GO-02"]},
+    {"id": "C-04", "question": "When did Kazakhstan decide to switch the Kazakh alphabet from Cyrillic to Latin, and when is the switch now due to finish?",
+     "reference": "A presidential decree of October 2017 ordered the change for 2025; in January 2021 the target was moved to 2031.",
+     "relevant": ["KZ-43"]},
+    {"id": "C-05", "question": "When was Narxoz University founded, and what was it called at the start?",
+     "reference": "In 1963, as the Almaty Institute of National Economy; it took its current name in 2016.",
+     "relevant": ["KZ-44"]},
+    {"id": "C-06", "question": "I am a master's student. How much need-based grant can I get?",
+     "reference": "The corpus does not say. GO-20 says master's students have a separate scheme that the handbook does not describe.",
+     "relevant": ["GO-20"]}
+  ]
+}

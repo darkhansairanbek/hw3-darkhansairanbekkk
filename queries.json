@@ -1,0 +1,21 @@
+{
+  "note": "Part B's eight fixed queries. Do not edit them: they are what makes every submission comparable. Add at least two of your own (Q-09, Q-10, ...) in your notebook. `relevant` lists the chunk ids that answer the query; a hit@3 is any of them in the top three.",
+  "queries": [
+    {"id": "Q-01", "text": "What is form GR-305 used for?",
+     "relevant": ["GO-08", "GO-12", "GO-23"]},
+    {"id": "Q-02", "text": "My family is poor. Is there financial help for students like me?",
+     "relevant": ["GO-01", "GO-02", "GO-03"]},
+    {"id": "Q-03", "text": "Өтінішті қашанға дейін тапсыру керек?",
+     "relevant": ["GO-09", "GO-14"]},
+    {"id": "Q-04", "text": "What is the minimum GPA for the grant?",
+     "relevant": ["GO-02"]},
+    {"id": "Q-05", "text": "When was Astana renamed Nur-Sultan, and why?",
+     "relevant": ["KZ-05"]},
+    {"id": "Q-06", "text": "Where did the Soviet Union test its nuclear weapons?",
+     "relevant": ["KZ-37", "KZ-38"]},
+    {"id": "Q-07", "text": "Can the grant be sent to my mother's card?",
+     "relevant": ["GO-15"]},
+    {"id": "Q-08", "text": "If my grades drop in the autumn, do I still get paid in February?",
+     "relevant": ["GO-17"]}
+  ]
+}
